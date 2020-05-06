@@ -6,6 +6,7 @@ import os
 
 # AI global variable
 from typing import List
+winner = ""
 
 otro = [0, 0]
 count = 0
@@ -51,8 +52,7 @@ def display_board():
 
 # Play a game of Tic Tac Toe
 def multi():
-    global current_player
-
+    global current_player    
     time.sleep(0.5)
     current_player = player()
     time.sleep(0.5)
